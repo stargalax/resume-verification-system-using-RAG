@@ -1,0 +1,134 @@
+{
+  "success": true,
+  "role": "Python Developer",
+  "projects": [
+    {
+      "title": "Real-Time Voice-Based Emotion and Sentiment Analysis",
+      "description": "Built an end-to-end real time emotion and sentiment analysis system using OpenAI Whisper and fine-tuned BERT (GoEmotions). Deployed as a Streamlit web app with interactive voice input and visualization of results.",
+      "technologies": [
+        "OpenAI Whisper",
+        "BERT",
+        "Streamlit"
+      ],
+      "domain": "Machine Learning"
+    },
+    {
+      "title": "AI-Powered Chatbot Analytics Dashboard",
+      "description": "Developed a backend system using FastAPI and Python to power a chatbot interface with NLP-based topic identification. Implemented analytics pipelines to track user interactions, categorize conversation topics, and generate real-time insights. Built a Streamlit dashboard to visualize conversation metrics and summaries, demonstrating proficiency in API development, NLP, and AI-driven analytics.",
+      "technologies": [
+        "FastAPI",
+        "Python",
+        "Streamlit"
+      ],
+      "domain": "Machine Learning"
+    },
+    {
+      "title": "VLM Search",
+      "description": "Created a multimodal search system using Vision-Language Models (VLM) on the Flickr dataset. Demonstrated effective retrieval by both text and image inputs using advanced neural network architectures.",
+      "technologies": [
+        "Vision-Language Models",
+        "Flickr dataset"
+      ],
+      "domain": "Computer Vision"
+    },
+    {
+      "title": "Japanese Character Recognition Using CNNs",
+      "description": "Built and trained a CNN to classify handwritten Japanese characters (Kuzushiji-MNIST), including data preprocessing, model evaluation, and image prediction.",
+      "technologies": [
+        "CNNs",
+        "Kuzushiji-MNIST"
+      ],
+      "domain": "Computer Vision"
+    },
+    {
+      "title": "Marketing Campaign ETL Dashboard",
+      "description": "Developed a ETL pipeline using Python, SQLite, FastAPI, and Streamlit to generate, store, and visualize marketing campaign data. Implemented RESTful APIs for campaign retrieval and summary metrics, along with a real-time dashboard to monitor CTR, ROI, and conversion rates. Automated data ingestion with a generator script simulating live campaign updates.",
+      "technologies": [
+        "Python",
+        "SQLite",
+        "FastAPI",
+        "Streamlit"
+      ],
+      "domain": "Data Analysis"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the purpose of the `__init__` method in a Python class?",
+      "options": [
+        "To define a class variable",
+        "To define a class method",
+        "To initialize instance variables when an object is created",
+        "To override a parent class method"
+      ],
+      "correct_answer": "To initialize instance variables when an object is created",
+      "explanation": "The `__init__` method is a special method in Python classes that is automatically called when an object is created from the class. It is used to initialize instance variables.",
+      "category": "role_based"
+    },
+    {
+      "question": "What is the difference between `self` and `cls` in a Python class method?",
+      "options": [
+        "Both `self` and `cls` are used to refer to the class itself",
+        "Both `self` and `cls` are used to refer to the instance of the class",
+        "`self` is used to refer to the instance of the class, while `cls` is used to refer to the class itself",
+        "`self` is used to refer to the class itself, while `cls` is used to refer to the instance of the class"
+      ],
+      "correct_answer": "`self` is used to refer to the instance of the class, while `cls` is used to refer to the class itself",
+      "explanation": "In Python, `self` is a reference to the instance of the class, while `cls` is a reference to the class itself. This is commonly used in class methods, such as `@classmethod` and `@staticmethod`.",
+      "category": "role_based"
+    },
+    {
+      "question": "What is the primary use of the OpenAI Whisper library in the Real-Time Voice-Based Emotion and Sentiment Analysis project?",
+      "options": [
+        "Speech recognition",
+        "Emotion detection",
+        "Sentiment analysis",
+        "Text-to-speech synthesis"
+      ],
+      "correct_answer": "Emotion detection",
+      "explanation": "OpenAI Whisper is a speech recognition library, but in this project, it is used for emotion detection by fine-tuning the BERT model.",
+      "related_project": "Real-Time Voice-Based Emotion and Sentiment Analysis",
+      "category": "project_specific"
+    },
+    {
+      "question": "What is the purpose of using a generator script in the Marketing Campaign ETL Dashboard project?",
+      "options": [
+        "To automate data ingestion from external sources",
+        "To simulate live campaign updates for testing purposes",
+        "To implement data validation checks",
+        "To schedule data backups"
+      ],
+      "correct_answer": "To simulate live campaign updates for testing purposes",
+      "explanation": "The generator script simulates live campaign updates to automate data ingestion and test the ETL pipeline.",
+      "related_project": "Marketing Campaign ETL Dashboard",
+      "category": "project_specific"
+    },
+    {
+      "question": "What type of model architecture is used in the VLM Search project for effective retrieval by both text and image inputs?",
+      "options": [
+        "Convolutional Neural Network (CNN)",
+        "Recurrent Neural Network (RNN)",
+        "Transformers",
+        "Vision-Language Models (VLM)"
+      ],
+      "correct_answer": "Vision-Language Models (VLM)",
+      "explanation": "The VLM Search project uses Vision-Language Models (VLM) for effective retrieval by both text and image inputs.",
+      "related_project": "VLM Search",
+      "category": "project_specific"
+    },
+    {
+      "question": "To improve the scalability of the Real-Time Voice-Based Emotion and Sentiment Analysis system, which of the following design choices would be most effective?",
+      "options": [
+        "Implementing a load balancer to distribute incoming voice input requests across multiple instances of the Streamlit web app",
+        "Using a message queue like RabbitMQ to handle voice input requests asynchronously and decouple the Streamlit web app from the OpenAI Whisper and BERT models",
+        "Scaling up the OpenAI Whisper and BERT models to larger instances to handle increased voice input requests",
+        "Implementing a caching layer to store pre-computed emotion and sentiment analysis results for frequently accessed voice inputs"
+      ],
+      "correct_answer": "B",
+      "explanation": "Using a message queue like RabbitMQ would allow the system to handle voice input requests asynchronously, decoupling the Streamlit web app from the OpenAI Whisper and BERT models. This would enable the system to scale more efficiently and handle increased voice input requests without introducing significant latency or performance degradation.",
+      "related_project": "Real-Time Voice-Based Emotion and Sentiment Analysis",
+      "category": "system_design"
+    }
+  ],
+  "total_questions": 6
+}

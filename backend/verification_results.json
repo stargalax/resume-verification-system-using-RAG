@@ -1,0 +1,75 @@
+{
+  "achievements": [
+    {
+      "title": "Non-Asbestos Brake Pad Development",
+      "type": "award",
+      "event_name": "",
+      "level": "unknown",
+      "year": "",
+      "details": "2 Placend",
+      "verification": {
+        "verified": true,
+        "search_query": " 2 Placend ",
+        "results_found": 5,
+        "top_results": [
+          {
+            "title": "Ordinal Numbers in English - Rules, List, Usage & Examples",
+            "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fvocaberry.com%2Fvocabulary%2Fordinal%2Dnumbers%2Din%2Denglish%2F&rut=83ee892e2ce7e51993671ea733974a6f7ef96349f673ec8550dbdec0a3b06292"
+          },
+          {
+            "title": "2rd or 2nd - Which is Correct? - Two Minute English",
+            "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Ftwominenglish.com%2F2rd%2Dor%2D2nd%2F&rut=b98771a47e36698436fa8b248c298c22e8777d7383716730c68fa92917c4bf84"
+          },
+          {
+            "title": "Understanding Ordinals: What Do You Call 1st, 2nd, 3rd, 4th, and Beyond?",
+            "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fsofthandtech.com%2Fwhat%2Ddo%2Dyou%2Dcall%2D1st%2D2nd%2D3rd%2D4th%2Detc%2F&rut=68f01bf3bdce305b8c996d9a0d4c5ba38de72b60374fa9dff6dfa1f9d9a37a93"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Regression Model for Medical Data",
+      "type": "award",
+      "event_name": "PALS Innowah! Innovation Challenge",
+      "level": "national",
+      "year": "2023",
+      "details": "",
+      "verification": {
+        "verified": true,
+        "search_query": "PALS Innowah! Innovation Challenge  2023",
+        "results_found": 5,
+        "top_results": [
+          {
+            "title": "PALS innoWAH! 2025-26",
+            "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Finnowah.palsportal.com%2F&rut=e01cf3fcd96eeee92f251b2027c7a6caccfeef89d6a34e368304532422675e0a"
+          },
+          {
+            "title": "PALS innoWAH! - Enhancing Engineering Education",
+            "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fpalspgm.org%2Finnowah%2F&rut=b00b84410250606a0994dc01e9829f451877b164c2c62c3830576512db58d072"
+          },
+          {
+            "title": "Excited to Share that as a team we participated in the ... - LinkedIn",
+            "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.linkedin.com%2Fposts%2Fkeerthikad27_excited%2Dto%2Dshare%2Dthat%2Das%2Da%2Dteam%2Dwe%2Dparticipated%2Dactivity%2D7189122327308062721%2DqfMp&rut=89aeb2166247cfc7d294218c31632ea0295ee31b1bb1efafa941e289a566262b"
+          }
+        ]
+      }
+    },
+    {
+      "title": "National Level Technical Symposium VITALIZZ",
+      "type": "award",
+      "event_name": "Medicoding",
+      "level": "national",
+      "year": "2022",
+      "details": "",
+      "verification": {
+        "verified": false,
+        "search_query": "Medicoding  2022",
+        "error": "Search failed with status 202"
+      }
+    }
+  ],
+  "certifications": {
+    "with_links": [],
+    "without_links": []
+  }
+}

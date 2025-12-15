@@ -1,0 +1,17 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore environment variables
+.env
+
+# Optional: Bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Optional: Temporary files
+*.log
+*.sqlite3
+*.db
+*.DS_Store
